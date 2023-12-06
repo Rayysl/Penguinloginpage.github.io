@@ -46,12 +46,12 @@ h3 {
 }
 
 
-.color-darkblue {
-    color: #005473;
+.insidetext {
+    color: #1D1E22;
 }
 
-.bg-color-darkblue {
-    background-color: #005473;
+.bg-insidetext {
+    background-color: #1D1E22;
 }
 
 .button-a {
@@ -73,7 +73,7 @@ body {
 /* Header */
 
 header {
-    background-color: #005473;
+    background-color:#131416;
     margin: 0;
 }
 
@@ -95,10 +95,11 @@ nav {
 }
 
 nav a {
+    display: inline-block;
     padding: 0 1.2rem;
-    color: whitesmoke;
-    font-size: 0.8rem;
-    font-weight: 500;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
 }
 
 nav ul {
@@ -128,14 +129,13 @@ a.navbar-logo-container {
     line-height: 0.8rem;
 }
     
-.navbar-top-right p {
+/* .navbar-top-right  
     background-color: white;
     border-radius: 3px;
     padding: 0.6rem 1.3rem;
     margin: 0 18px;
-    color: #0f2f3b;
 }
-
+*/
 
 /*  Main Page */
 
@@ -225,21 +225,31 @@ article.mainpage {
 }
 
 .mainpage-register a {
-    background-color: #005473;
+    background-color:#1D1E22;
     color: white;
 }
 
+
+
+
+/*  Hoover */
+
 .mainpage-register a:hover {
-    background-color: white;
-    border: 2px solid #005473;
-    color: #005473;
+    background-color:#CAFF32;
+    color: #1D1E22;
     transition: all 0.1s ease-in;
 }
 
-.mainpage-question {
-    text-align: center;
-    font-size: 0.8rem;
-    text-decoration: underline;
-    font-weight: 700;
+.navbar-top a:hover {
+    background-color: #CAFF32;
+    color: #1D1E22;
+    transition: all 0.1s ease-in;
+    border-radius: 3px;
 }
 
+.navbar-top-right a:hover {
+    background-color: #CAFF32;
+    color: #1D1E22;
+    transition: all 0.1s ease-in;
+    border-radius: 3px;
+}
