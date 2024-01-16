@@ -288,8 +288,8 @@ article.mainpage {
 }
 
 #plus {
-    background-color: aliceblue;
-    color: white;
+    background-color:blanchedalmond;
+    color: black;
 }
 
 .plus-library {
@@ -340,4 +340,27 @@ article.mainpage {
 
     display: flex;
     align-items: center;
+}
+
+/* Statistic */
+
+.statistik-container {
+    display: flex;
+    justify-content: center;
+}
+
+.statistik-items {
+    display: inline-block;
+    margin: 0 1rem;
+    color:#1D1E22 ;
+}
+
+.statistik-items span {
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.statistik-items h3 {
+    text-align: center;
 }
